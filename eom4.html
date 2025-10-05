@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <link rel="stylesheet" href="./style.css">
+        <title>4 Покоління ЕОМ</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="header">
+            <a href="./index.html" class="nav-btn">Головна</a>
+            <a href="./eom1.html" class="nav-btn">Перше покоління</a>
+            <a href="./eom2.html" class="nav-btn">Друге покоління</a>
+            <a href="./eom3.html" class="nav-btn">Третє покоління</a>
+            <a href="./eom4.html" class="nav-btn">Четверте покоління</a>
+        </div>
+        <h4 class="intro">
+            Четверте покоління електронно-обчислювальних машин почалося у 1970-х роках завдяки впровадженню мікропроцесорів. Це дозволило створювати персональні комп’ютери, значно підвищити продуктивність і знизити вартість.
+        </h4>
+        <div class="main-block">
+            <div class="main-block-element">
+                <h2>Процесор Intel</h2>
+                <img src="img/CPU.png" alt="Процесор Intel i486" style="width:90%;">
+                <p>
+                    Мікропроцесори стали серцем комп’ютерів четвертого покоління. Вони об’єднували багато функцій на одному кристалі, що значно підвищило швидкодію. Це відкриває нові можливості для обробки даних та програмування.
+                </p>
+            </div>
+
+            <div class="main-block-element">
+                <h2>Сучасна ЕОМ</h2>
+                <img src="img/ЕОМ4.png" alt="Персональний комп’ютер" style="width:120%">
+                <p>
+                    Завдяки розвитку мікропроцесорів з’явилися доступні персональні комп’ютери. Вони змінили спосіб роботи та навчання, ставши частиною повсякденного життя. Це стало новою ерою обчислювальної техніки.
+                </p>
+            </div>
+        </div>    
+
+        <div class="details-section">
+        <h2>Детальніше про кристал процесора:</h2>
+        <p>
+        Кристал процесора — це головний компонент мікропроцесора, на якому розміщені мільйони транзисторів та електричних схем. Він виконує обробку даних та керує роботою комп’ютера.  
+        Завдяки технології інтегральних схем кристал процесора забезпечує високу швидкодію та компактність сучасних ЕОМ. Його структура та архітектура визначають продуктивність та можливості обчислювальної техніки.
+        </p>
+    </div>
+
+        <script>
+            document.addEventListener("mousemove", (e) => {
+            const moveX = (e.clientX / window.innerWidth - 0.5) * 10; 
+            const moveY = (e.clientY / window.innerHeight - 0.5) * 10; 
+
+            document.body.style.setProperty("--mouseX", 50 + moveX + "%");
+            document.body.style.setProperty("--mouseY", 50 + moveY + "%");
+            });
+        </script>
+    </body>
+</html>
